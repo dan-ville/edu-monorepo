@@ -2,7 +2,7 @@
   background-color: white;
   color: black;
   width: 500px;
-  height: 800px;
+  /* height: 800px; */
 
   display: grid;
   grid-template-rows: auto 1fr 1fr;
@@ -15,6 +15,32 @@
   grid-column-end: 5;
   text-align: center;
 }
+
+.heading_1 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.heading_2 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.heading_3 {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.heading_4 {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.heading_5 {
+  font-size: 8px;
+  font-weight: 600;
+}
+
 
 .newspaper_name {
   font-size: 32px;
@@ -35,7 +61,7 @@
   grid-column-end: 3;
 }
 
-.subgrid_1_center_sub {
+.img_subtitle {
   font-size: 10px;
   /* line-height: 0.5; */
 }
@@ -102,4 +128,20 @@
 .center_image_sub {
   font-size: 8px;
   margin-bottom: 6px;
+}
+
+.subgrid_2 {
+  grid-template-columns: repeat(4, auto);
+  gap: 8px;
+}
+
+.aside_1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.red_box {
+  border: 6px solid red;
+  font-size: 8px;
+  padding: 5px;
 }
